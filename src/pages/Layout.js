@@ -19,14 +19,14 @@ export default function Layout() {
                                     <li className="nav-item"><a className="nav-link" href="pricing.html">Pricing</a></li>
                                     <li className="nav-item"><a className="nav-link" href="faq.html">FAQ</a></li>
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                                        <a className="nav-link dropdown-toggle" id="navbarDropdownBlog" href="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
                                         <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
                                             <li><a className="dropdown-item" href="blog-home.html">Blog Home</a></li>
                                             <li><a className="dropdown-item" href="blog-post.html">Blog Post</a></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                                        <a className="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
                                         <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
                                             <li><a className="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
                                             <li><a className="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
